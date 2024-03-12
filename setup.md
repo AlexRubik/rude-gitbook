@@ -15,8 +15,8 @@
 or once you've figured out your preferred .env values, you can run it in the \
 background with nohup:\
 \
-`nohup ./rude-bot-alpha0_1_1 >> bot1.log 2>&1 &`\
-`nohup ./rude-bot-alpha0_1_1 >> bot2.log 2>&1 &`\
+`nohup ./rude-bot-alpha0_2_1 >> bot1.log 2>&1 &`\
+`nohup ./rude-bot-alpha0_2_1 >> bot2.log 2>&1 &`\
 \
 Watch the logs with `tail -f bot1.log`\
 \
