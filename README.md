@@ -13,7 +13,8 @@ description: >-
 
 * Jupiter's free/public v6 API (https://quote-api.jup.ag/v6)
 * Access to an RPC node
-* Linux Operating System
+* Linux Operating System\
+  \- Windows users can use [WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
 * Small amount of SOL and/or USDC to pay for transaction fees and Flash Loan fees (if enabled)
 
 ## Suggested Specifications
