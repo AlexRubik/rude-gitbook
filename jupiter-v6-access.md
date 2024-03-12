@@ -1,5 +1,7 @@
 # Jupiter v6 Access
 
+Jupiter's free api (highly limited): https://quote-api.jup.ag/v6
+
 Quicknode offers a connection: [https://marketplace.quicknode.com/add-on/metis-jupiter-v6-swap-api](https://marketplace.quicknode.com/add-on/metis-jupiter-v6-swap-api)\
 \
 For self hosting you can read about it here: \
