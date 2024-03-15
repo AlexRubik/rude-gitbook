@@ -8,12 +8,14 @@
    \- Rename it to .env with this command: \
    `mv .env.example .env`
 3. Modify your [baseConfig.json](baseconfig.json.md)
-4. Run the executable provided:\
+4. Give it permission to execute and then run the executable provided:\
+   `chmod +x rude-bot-alpha0_2_1`\
+   \
    `./rude-bot-alpha0_2_1`&#x20;
 
 &#x20;\
 or once you've figured out your preferred .env values, you can run it in the \
-background with nohup:\
+background with nohup and log it to different files:\
 \
 `nohup ./rude-bot-alpha0_2_1 >> bot1.log 2>&1 &`\
 `nohup ./rude-bot-alpha0_2_1 >> bot2.log 2>&1 &`\
