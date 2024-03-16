@@ -3,7 +3,7 @@
 ## FAQ
 
 * There is no slippage variable? Can I lose?\
-  **You can't lose on a successful transaction!** (except for transaction fees)\
+  **You can't lose on a successful transaction!** (except for transaction fees and fees for opening token accounts)\
   I've written an on chain program that prevents loss. The transaction is designed to fail if your base token balance ends less than or equal to the starting balance. &#x20;
 * Transaction fees are killing me. How do I mitigate?\
   \- Increase your [simulation value](#user-content-fn-1)[^1]\

@@ -1,10 +1,10 @@
 # Table of contents
 
-* [Requirements](README.md)
-* [Setup](setup.md)
-* [.env File <=v0.1.1-alpha](.env-file-less-than-v0.1.1-alpha.md)
-* [.env File >=v0.2.1-alpha](.env-file-greater-than-v0.2.1-alpha.md)
-* [baseConfig.json](baseconfig.json.md)
+* [Official Links](README.md)
+* [Requirements](<README (1).md>)
+* [Setup](setup/README.md)
+  * [.env File >=v0.2.1-alpha](setup/.env-file-greater-than-v0.2.1-alpha.md)
+  * [baseConfig.json](setup/baseconfig.json.md)
 * [Jupiter v6 Access](jupiter-v6-access.md)
 * [Fees](fees.md)
 * [FAQ / Errors](faq-errors.md)
