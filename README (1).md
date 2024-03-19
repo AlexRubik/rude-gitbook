@@ -11,18 +11,18 @@ description: >-
 
 ## Minimum Requirements
 
-* Jupiter's free/public v6 API (https://quote-api.jup.ag/v6)
+* Jupiter's free/public v6 API (https://quote-api.jup.ag/v6 , heavily rate limited)
 * Access to an RPC node
-* Linux Operating System\
-  \- Windows users can use [WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
+* Linux or Windows Operating System\
+  \- Windows users can use [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) or the provided zip file in the releases
 * Small amount of SOL and/or USDC to pay for transaction fees and Flash Loan fees (if enabled)
 
 ## Suggested Specifications
 
-* Jupiter v6 API with no or high rate limit
+* [Jupiter v6 API](jupiter-v6-access.md) with no or high rate limit
 * RPC node with no or high rate limit
 * Linux OS
-* Base token balances to cover the trade sizes you want to capture (Flash Loans make your transactions too large/slow sometimes)
+* Base token balances to cover the trade sizes you want to capture
 
 ## Ideal Specifications
 

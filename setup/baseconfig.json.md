@@ -3,14 +3,15 @@
 `decimals`: you can find the decimals for your token by going to your token's [birdeye page](https://birdeye.so/token/9tzZzEHsKnwFL1A3DyFJwj36KnZj3gZ7g4srWp9YTEoh?chain=solana). Click on the address and it should take you to the token's [Solscan page](https://solscan.io/token/9tzZzEHsKnwFL1A3DyFJwj36KnZj3gZ7g4srWp9YTEoh) where it should show you the decimals.\
 &#x20;![](../.gitbook/assets/image.png)
 
-`minProfitBps`: your minimum profit threshold. For example, if you set this to 100 bps (1%), the bot will not attempt a transaction for the opportunities it finds under 100 bps profit.
+`minProfitBps`: your minimum profit threshold in basis points. For example, if you set this to 100 bps (1%), the bot will not attempt a transaction for the opportunities it finds under 100 bps profit.
 
 `directRoutesOnly`: will only look for direct routes, for example:\
 (SOL -> TOKEN, TOKEN -> SOL)\
 Pros: transactions will be lighter and more likely to land\
 Cons: you will see less opportunities
 
-
+\
+Please refer to [Strategies](../strategies.md) after learning about the baseConfig.json properties.
 
 ```json
 [
@@ -23,7 +24,7 @@ Cons: you will see less opportunities
       "maxTradeSize": 0.1,
       "balance": 0.25,
       "tradeSizeDecimals": 2,
-      "minProfitBps": 100,
+      "minProfitBps": 40,
       "directRoutesOnly": false
     }
 ]
