@@ -13,13 +13,4 @@
    \
    `./rude-bot-alpha0_2_1`&#x20;
 
-&#x20;\
-or once you've figured out your preferred .env values, you can run it in the \
-background with nohup and log it to different files:\
-\
-`nohup ./rude-bot-alpha0_2_1 >> bot1.log 2>&1 &`\
-`nohup ./rude-bot-alpha0_2_1 >> bot2.log 2>&1 &`\
-\
-Watch the logs with `tail -f bot1.log`\
-\
-Run however many instances you think will be optimal. More instances does not always mean a better overall performance. You will have to test to find out what is best for your setup.
+&#x20;
