@@ -7,7 +7,7 @@ description: >-
 
 # Requirements
 
-**Offering access to my RPC and Jup API for a limited time! Send a friend request to @alexdev777 on Discord!**
+
 
 ## Minimum Requirements
 
