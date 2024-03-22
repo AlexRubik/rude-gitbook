@@ -3,7 +3,7 @@
 ## FAQ
 
 * Why am I not rich yet?\
-  You can't just turn the bot on and make infinite money. You need to have dedicated connections to RPC(s) and a [Jupiter v6 API](jupiter-v6-access.md) and try different [strategies](strategies.md) to see what works.\
+  You can't just turn the bot on and make infinite money. You need to have dedicated connections to RPC(s) and a [Jupiter v6 API](setup/jupiter-v6-access.md) and try different [strategies](strategies.md) to see what works.\
 
 * There is no slippage variable? Can I lose?\
   **You can't lose on a successful transaction!** (except for transaction fees and fees for opening token accounts)\

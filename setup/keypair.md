@@ -1,5 +1,7 @@
 ---
-description: Use this JavaScript code to convert your private key to a json array.
+description: >-
+  Use this JavaScript code to convert your string/base58 private key to a json
+  array.
 ---
 
 # Keypair
