@@ -1,4 +1,10 @@
+---
+description: If this page is not helpful, please look for support on our Discord.
+---
+
 # FAQ / Errors
+
+[**Discord**](https://discord.gg/6DTGbMNYuA)
 
 ## FAQ
 

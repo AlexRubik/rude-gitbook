@@ -7,7 +7,7 @@ description: >-
 
 # Requirements
 
-
+[**Discord**](https://discord.gg/6DTGbMNYuA)
 
 ## Minimum Requirements
 
