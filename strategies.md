@@ -1,5 +1,7 @@
 ---
-description: Some basic strategies to try or gain inspiration from.
+description: >-
+  Some basic strategies to try or gain inspiration from. We also post strategies
+  in the Discord.
 ---
 
 # Strategies
@@ -20,8 +22,12 @@ For example:
         "maxTradeSize": 4,
         "balance": 4,
         "tradeSizeDecimals": 1,
-        "minProfitBps": 40,
-        "directRoutesOnly": false
+        "minProfitBps": 30,
+        "directRoutesOnly": false,
+        "maxAccounts": 28,
+        "profitBpsThresholdForSim": 35,
+        "minFeeLamports": 1000,
+        "maxFeeLamports": 3000
     },
 ```
 
