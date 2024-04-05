@@ -7,17 +7,17 @@
 wget https://github.com/AlexRubik/rude-bot-solana/releases/download/v0.2.4-alpha/rude-bot-alpha0_2_4.zip
 ```
 
-1. Modify your .env.example file (see [.env page](.env-file-greater-than-v0.2.4-alpha.md)) with nano or whatever text editor you use: \
+2. Modify your .env.example file (see [.env page](.env-file-greater-than-v0.2.4-alpha.md)) with nano or whatever text editor you use: \
    `nano .env.example`\
    \
    \- Rename it to .env with this command: \
    `mv .env.example .env`
-2. Modify your [baseConfig.json](baseconfig.json.md)
-3. Give it permission to execute and then run the executable provided:\
+3. Modify your [baseConfig.json](baseconfig.json.md)
+4. Give it permission to execute and then run the executable provided:\
    `chmod +x rude-bot-alpha0_2_4`\
    \
    `./rude-bot-alpha0_2_4`&#x20;
-4. Run in background with screen command:\
+5. Run in background with screen command:\
    `screen -S session1`\
    \
    Execute the bot `./rude-bot-alpha0_2_4`\
