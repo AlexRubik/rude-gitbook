@@ -11,6 +11,10 @@ wget https://github.com/AlexRubik/rude-bot-solana/releases/download/v0.2.4-alpha
 unzip rude-bot-alpha0_2_4.zip
 ```
 
+```
+cd rude-bot-alpha0_2_4
+```
+
 2. Modify your .env.example file (see [.env page](.env-file-greater-than-v0.2.4-alpha.md)) with nano or whatever text editor you use: \
    `nano .env.example`\
    \
