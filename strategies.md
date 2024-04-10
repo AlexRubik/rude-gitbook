@@ -8,7 +8,7 @@ description: >-
 
 ## Small Trade Sizes
 
-Everyone should try small trade sizes first because they're the easiest to hit so it's a good baseline test for your connections. If you can't hit anything with small trade sizes and small minProfitBps values then something is wrong with your connections. You need a higher quality Jup API or RPC or both.\
+Everyone should try small trade sizes first because they're the easiest to hit so it's a good baseline test for your connections. If you can't hit anything with small trade sizes and small minProfitBps values then something is wrong with your connections. You need a higher quality Jup API or RPC or need to be [closer to your connections.](optimal-setup.md)\
 \
 For example:
 

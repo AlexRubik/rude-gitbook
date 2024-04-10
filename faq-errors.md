@@ -9,11 +9,12 @@ description: If this page is not helpful, please look for support on our Discord
 ## FAQ
 
 * **Why am I not rich yet?**\
+  **Read** [**Optimal Setup**](optimal-setup.md)\
   You can't just turn the bot on and make infinite money. You need to have good connections to [RPC(s)](bot-setup-instructions/rpcs.md) and a [Jupiter v6 API](bot-setup-instructions/jupiter-v6-access.md) and try different [strategies](strategies.md) to see what works.\
 
-* **There is no slippage variable? Can I lose?**\
+* **Can I lose money on a transaction?**\
   **You can't lose on a successful transaction!** (except for transaction fees and fees for opening token accounts)\
-  I've written an on chain program that prevents loss. The transaction is designed to fail if your base token balance ends less than or equal to the starting balance.  \
+  We've written an on chain program (smart contract) that prevents loss. The transaction is designed to fail if your base token balance ends less than or equal to the starting balance. Don't believe us? The bot has produced over 1 million transactions that you can analyze [here](https://solscan.io/account/3tZPEagumHvtgBhivFJCmhV9AyhBHGW9VgdsK52i4gwP)!\
 
 * **Transaction fees are killing me. How do I mitigate?**\
   \- Increase minProfitBps\
@@ -24,7 +25,7 @@ description: If this page is not helpful, please look for support on our Discord
 
 * `429 Errors:` you are being rate limited by your [Jupiter API](bot-setup-instructions/jupiter-v6-access.md) or [RPC](bot-setup-instructions/rpcs.md)
 * `RangeError: encoding overruns Uint8Array:` transaction size was too large
-* `400 Errors from Jupiter`: the ones that I'm seeing are from no routes found for some pairs I'm testing. Will need to handle this in future releases.
+* `400 Errors from Jupiter`: the ones that we're seeing are from no routes found for some pairs. Will need to handle this in future releases.
 
 
 
