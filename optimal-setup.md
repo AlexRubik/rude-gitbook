@@ -4,10 +4,12 @@ description: Suggestions for an optimal setup.
 
 # Optimal Setup
 
-* All servers in the same location\
+* All these servers need to be in the same location AND near a cluster of validators:\
   \- [RPC server](bot-setup-instructions/rpcs.md)\
   \- [Jupiter API server](bot-setup-instructions/jupiter-v6-access.md) (QuickNode's server is in Ashburn, VA)\
-  \- Server that runs the bot (look in rent-servers channel in [Discord](./) for cheapest options the community finds)
+  \- Server that runs the bot (look in rent-servers channel in [Discord](./) for cheapest options the community finds)\
+  \
+  Here are some locations that have a high concentration of validators: Frankfurt, Amsterdam, New York, Chicago, Virginia. Check out this map of Solana validators: [https://www.validators.app/](https://www.validators.app/)
 * RPC optimized for sending transactions
 * Large trade sizes; your profit will scale with trade size because you will be exposed to opportunities that aren't present at lower trade sizes. E.g., a trade size range of $10 - $1000 will almost always be more profitable than a range of $10 - $50.
 * Distribute trade size ranges into different base config objects. E.g., $50 - $100 in one object, $100 - $150 in another, etc.
