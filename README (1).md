@@ -19,14 +19,9 @@ description: >-
 
 ## Suggested
 
+* Please read [Optimal Setup](optimal-setup.md)
 * [Jupiter v6 API](bot-setup-instructions/jupiter-v6-access.md) with no or high rate limit
 * [RPC node](bot-setup-instructions/rpcs.md) with no or high rate limit
 * Linux OS
 * Base token balances to cover the trade sizes you want to capture and SOL for transaction fees
 
-## Ideal
-
-* Run your own RPC node
-* On a separate server in the same data center as your RPC node, host your Jup API using your RPC node. Run your bots on these servers if they can spare CPU and RAM usage. If you want a complete separation of concerns, run your bots on a 3rd separate server in the same data center.
-* Linux OS
-* Base token balances to cover the trade sizes you want to capture and SOL for transaction fees

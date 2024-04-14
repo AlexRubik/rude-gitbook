@@ -6,7 +6,7 @@ The bot is currently set to take 1/_n_ of the profit of every successful transac
 \
 **If the bot gains traction, I will reduce these fees. And if the bot gains A LOT of traction then I will setup a Jupiter API for bot users only.**
 
-## Fee Removal
+## Fee Reduction
 
 In development... stay up to date on [Discord](https://discord.gg/bKxjJ6YJrf)
 
