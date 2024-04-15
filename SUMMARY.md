@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Official Links](README.md)
+* [Easy Setup Video](easy-setup-video.md)
 * [Requirements](<README (1).md>)
 * [Bot Setup Instructions](bot-setup-instructions/README.md)
   * [.env File >=v0.2.4-alpha](bot-setup-instructions/.env-file-greater-than-v0.2.4-alpha.md)
