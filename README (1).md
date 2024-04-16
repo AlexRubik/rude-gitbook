@@ -11,11 +11,11 @@ description: >-
 
 ## Minimum Requirements
 
-* [Quiknode's free Jupiter ](https://marketplace.quicknode.com/add-on/metis-jupiter-v6-swap-api)[API](https://marketplace.quicknode.com/add-on/metis-jupiter-v6-swap-api) (10 requests per second) or Jupiter's free v6 API (https://quote-api.jup.ag/v6 , heavily rate limited)
+* [Quicknode's free Jupiter ](https://marketplace.quicknode.com/add-on/metis-jupiter-v6-swap-api)[API](https://marketplace.quicknode.com/add-on/metis-jupiter-v6-swap-api) (10 requests per second) or Jupiter's free v6 API (https://quote-api.jup.ag/v6 , heavily rate limited)
 * Access to an [RPC node](bot-setup-instructions/rpcs.md)
 * Linux or Windows Operating System\
   \- Windows users can use [WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
-* Funds for transaction fees and your preferred trade sizes (for a minimal testing setup: 4 USDC, 0.05 SOL)
+* Funds for transaction fees and your preferred trade sizes (for a minimal testing setup: 4 USDC, 0.15 SOL)
 
 ## Suggested
 
