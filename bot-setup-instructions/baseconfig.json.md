@@ -39,7 +39,9 @@ Please refer to [Strategies](../strategies.md) after learning about the baseConf
         "maxAccounts": 28,
         "profitBpsThresholdForSim": 12,
         "minFeeLamports": 1000,
-        "maxFeeLamports": 3000
+        "maxFeeLamports": 3000,
+        "bundleTipLamports": 0
+
     }
 ]
 ```

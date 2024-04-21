@@ -27,7 +27,8 @@ For example:
         "maxAccounts": 28,
         "profitBpsThresholdForSim": 35,
         "minFeeLamports": 1000,
-        "maxFeeLamports": 3000
+        "maxFeeLamports": 3000,
+        "bundleTipLamports": 0
     },
 ```
 
