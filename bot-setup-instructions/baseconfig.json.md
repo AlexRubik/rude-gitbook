@@ -18,7 +18,7 @@ Cons: you will see less opportunities
 
 If profit < value, then simulate the transaction before sending. The idea here is to not waste time simulating if the opportunity has a high profit bps but it's also nice to not waste txn fee sol on a txn that would have failed if sent to chain.
 
-`min/maxFeeLamports`: min/max priority fees based on potential profit scaled for 10% as max. So if the potential profit for an arb is >= 10% then the maxFeeLamports will be used. And then everything between 0% - 10% potential profit scales linearly. I think this would do better scaling exponentially. Will need to look into this.
+`min/maxFeeLamports`: min/max priority fees based on potential profit scaled for 3% as max. So if the potential profit for an arb is >= 3% then the maxFeeLamports will be used. And then everything between 0% - 3% potential profit scales linearly. I think this would do better scaling exponentially. Will need to look into this.
 
 \
 Please refer to [Strategies](../strategies.md) after learning about the baseConfig.json properties.

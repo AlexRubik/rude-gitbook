@@ -6,6 +6,7 @@
 * [Bot Setup Instructions](bot-setup-instructions/README.md)
   * [.env File >=v0.2.4-alpha](bot-setup-instructions/.env-file-greater-than-v0.2.4-alpha.md)
   * [baseConfig.json](bot-setup-instructions/baseconfig.json.md)
+  * [includeMints.json](bot-setup-instructions/includemints.json.md)
   * [Keypair](bot-setup-instructions/keypair.md)
   * [Jupiter v6 Access](bot-setup-instructions/jupiter-v6-access.md)
   * [RPCs](bot-setup-instructions/rpcs.md)

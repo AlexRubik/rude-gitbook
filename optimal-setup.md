@@ -15,5 +15,5 @@ description: Suggestions for an optimal setup.
 * Distribute trade size ranges into different base config objects. E.g., $1 - $20 in one object, $20 - $80 in another, etc.
 * Base config objects with minProfitBps values that decrease as the trade size increases. E.g., a trade size range of $100 - $300 should have a minProfitBps of 5 - 15 but a range of $1 - $10 should have a minProfitBps > 20. **These are suggestions. You should test these values yourself.**
 * Put popular token mint addresses in your includeMints.json and in your filter mints Jup API arg if you are self hosting. Refer to [Birdeye](https://birdeye.so/find-gems?chain=solana) to find what's trending.
-* Host your own Jupiter API on a dedicated (bare metal) server (Ask about it in Discord and read about it [here](https://station.jup.ag/docs/apis/self-hosted))
+* Host your own Jupiter API on a dedicated (bare metal) server with at least 8 cores, 16 cores suggested (Ask about it in Discord and read about it [here](https://station.jup.ag/docs/apis/self-hosted))
 * Put this setup in all the validator cluster locations mentioned in the first bullet point above.
