@@ -18,8 +18,7 @@ description: If this page is not helpful, please look for support on our Discord
 
 * **Transaction fees are killing me. How do I mitigate?**\
   \- Increase minProfitBps\
-  \- Lower your priority fee\
-  \- Increase your [simulation value](#user-content-fn-1)[^1]
+  \- Lower your priority fee
 
 ## Errors
 
@@ -27,6 +26,3 @@ description: If this page is not helpful, please look for support on our Discord
 * `RangeError: encoding overruns Uint8Array:` transaction size was too large
 * `400 Errors from Jupiter`: the ones that we're seeing are from no routes found for some pairs. Will need to handle this in future releases.
 
-
-
-[^1]: `PROFIT_BPS_THRESHOLD_FOR_SIM`

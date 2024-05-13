@@ -1,3 +1,7 @@
+---
+description: It is highly recommended that you host your own Jupiter API.
+---
+
 # Jupiter v6 Access
 
 * Quicknode's free but limited: `https://public.jupiterapi.com`
