@@ -17,6 +17,7 @@ description: Suggestions for an optimal setup.
 * Frequently put new and popular token mint addresses in your includeMints.json and in your filter mints Jup API arg if you are self hosting. Refer to [Birdeye](https://birdeye.so/find-gems?chain=solana) to find what's trending.
 * Host your own Jupiter API on a [dedicated (bare metal) server](https://rackdog.com/dedicated-baremetal) with at least 8 cores, 16 cores suggested, and 28 + cores is optimal (Ask about it in Discord and read about it [here](https://station.jup.ag/docs/apis/self-hosted))
 * Put this setup in all the validator cluster locations mentioned in the first bullet point above.
-* Put many different RPC endpoints in the rpcs.json file
-* SPAM\_RPCS\_ENABLED=true\
+* Put many different RPC urls in the rpcs.json file
+* QUOTE\_REQUEST\_INTERVAL\_MS=3\
+  SPAM\_RPCS\_ENABLED=true\
   SPAM\_RPCS\_UNIQUE\_TXNS=true
