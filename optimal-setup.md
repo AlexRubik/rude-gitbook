@@ -6,7 +6,7 @@ description: Suggestions for an optimal setup.
 
 * All these servers need to be in the same location AND near a cluster of validators:\
   \- [RPC server](bot-setup-instructions/rpcs.md)\
-  \- [Jupiter API server](bot-setup-instructions/jupiter-v6-access.md) (QuickNode's server is in Ashburn, VA)\
+  \- [Jupiter API server](bot-setup-instructions/jupiter-v6-access.md) (Self Hosting is suggested)\
   \- Server that runs the bot (look in rent-servers channel in [Discord](./) for cheapest options the community finds)\
   \
   Here are some locations that have a high concentration of validators: Frankfurt, Amsterdam, New York, Chicago, Virginia. Check out this map of Solana validators: [https://www.validators.app/](https://www.validators.app/)
