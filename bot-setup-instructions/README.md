@@ -15,7 +15,7 @@ unzip rude-bot-alpha0_2_9.zip
 cd rude-bot-alpha0_2_9
 ```
 
-2. Modify your .env.example file (see [.env page](.env-file-greater-than-v0.2.9-alpha.md)) with nano or whatever text editor you use: \
+2. Modify your .env.example file (see [.env page](.env.md)) with nano or whatever text editor you use: \
    `nano .env.example`\
    \
    \- Rename it to .env with this command: \

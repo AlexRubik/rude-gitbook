@@ -4,7 +4,7 @@
 * [Easy Setup Video](easy-setup-video.md)
 * [Requirements](<README (1).md>)
 * [Bot Setup Instructions](bot-setup-instructions/README.md)
-  * [.env File >=v0.2.9-alpha](bot-setup-instructions/.env-file-greater-than-v0.2.9-alpha.md)
+  * [.env](bot-setup-instructions/.env.md)
   * [baseConfig.json](bot-setup-instructions/baseconfig.json.md)
   * [includeMints.json](bot-setup-instructions/includemints.json.md)
   * [Keypair](bot-setup-instructions/keypair.md)
