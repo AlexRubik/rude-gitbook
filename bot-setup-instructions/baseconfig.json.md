@@ -20,28 +20,45 @@ If profit < value, then simulate the transaction before sending. The idea here i
 
 `min/maxFeeLamports`: min/max priority fees based on potential profit scaled for 3% as max. So if the potential profit for an arb is >= 3% then the maxFeeLamports will be used. And then everything between 0% - 3% potential profit scales linearly. I think this would do better scaling exponentially. Will need to look into this.
 
+`jitoProfitPerc`: Percent of profit to send as a jito bundle tip. E.g., if the value is set to 50 then every profitable transaction will send 50% of the profit as a jito tip in SOL. Jito tips are only in native SOL so make sure you have enough SOL to use this.
+
+This only works with SOL/USDC/USDT workers. Keep this value = 0 otherwise.
+
+When this value = 0 , normal transactions will be used. Not a jito bundle.
+
+When this is > 0 the worker will **only** send your transactions in a jito bundle.
+
+`maxTipLamports`: the max tip allowed for a Jito tip. For example, if your Jito bundle transaction is going to profit 1 SOL and your jitoProfitPerc = 50% then the bot will normally tip 0.5 SOL but if your maxTipLamports value is 0.10 SOL (in lamports) then the bot will tip 0.10 SOL and you will earn 0.4 SOL more profit. You can use this website to convert SOL to lamports: [https://www.solconverter.com/](https://www.solconverter.com/)
+
+`useHeliusTxn and heliusPriorityLevel`: please read about these properties [here](https://github.com/AlexRubik/rude-bot-solana/releases/tag/v1.0.0-alpha).
+
 \
 Please refer to [Strategies](../strategies.md) after learning about the baseConfig.json properties.
 
 ```json
 [
     {
-      "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-      "name": "USDC",
-      "decimals": 6,
-        "enabled": false,
-        "minTradeSize": 1,
-        "maxTradeSize": 4,
-        "balance": 4,
-        "tradeSizeDecimals": 2,
-        "minProfitBps": 10,
-        "directRoutesOnly": false,
-        "maxAccounts": 28,
-        "profitBpsThresholdForSim": 12,
-        "minFeeLamports": 1000,
-        "maxFeeLamports": 3000,
-        "bundleTipLamports": 0
-
+      "workerUniqueId": "wsol5",
+      "mint": "So11111111111111111111111111111111111111112",
+        "name": "SOL",
+      "decimals": 9,
+      "enabled": true,
+      "minTradeSize": 0.006,
+      "maxTradeSize": 0.22,
+      "balance": 10.25,
+      "tradeSizeDecimals": 5,
+      "minProfitBps": 4,
+      "directRoutesOnly": false,
+      "maxAccounts": 20,
+      "profitBpsThresholdForSim": 1,
+      "minFeeLamports": 1000,
+      "maxFeeLamports": 3000,
+      "jitoProfitPerc": 0,
+      "minTipLamports": 0,
+      "maxTipLamports": 10000000,
+      "useHeliusTxn": true,
+      "heliusPriorityLevel": "MEDIUM",
+      "includeMintsJsonPath": "./includeMints.json"
     }
 ]
 ```
