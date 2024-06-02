@@ -18,7 +18,7 @@ description: Suggestions for an optimal setup.
 * Ubuntu 22 OS
 * Host your own Jupiter API on a [dedicated (bare metal) server](https://billing.rackdog.com/aff.php?aff=53) with at least 8 cores, 16 cores suggested, and 28 + cores is optimal (Ask about it in Discord and read about it [here](https://station.jup.ag/docs/apis/self-hosted))
 * Put this setup in all the validator cluster locations mentioned in the first bullet point above.
-* Put many different RPC urls in the rpcs.json file
-* QUOTE\_REQUEST\_INTERVAL\_MS=3\
+* Put many different RPC urls in the rpcs.json file. You can also try duplicating some of them.
+* QUOTE\_REQUEST\_INTERVAL\_MS=(As low as possible without killing your jup api, try 5 - 10)\
   SPAM\_RPCS\_ENABLED=true\
   SPAM\_RPCS\_UNIQUE\_TXNS=true
