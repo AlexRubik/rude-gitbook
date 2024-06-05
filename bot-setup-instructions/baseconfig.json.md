@@ -3,7 +3,7 @@
 `decimals`: you can find the decimals for your token by going to your token's [birdeye page](https://birdeye.so/token/9tzZzEHsKnwFL1A3DyFJwj36KnZj3gZ7g4srWp9YTEoh?chain=solana). Click on the address and it should take you to the token's [Solscan page](https://solscan.io/token/9tzZzEHsKnwFL1A3DyFJwj36KnZj3gZ7g4srWp9YTEoh) where it should show you the decimals.\
 &#x20;![](../.gitbook/assets/image.png)
 
-`minProfitBps`: your minimum profit threshold in basis points. For example, if you set this to 100 bps (1%), the bot will not attempt a transaction for the opportunities it finds under 100 bps profit. The bot is constantly searching for opportunities for a random trade size fixed in the min max range you provide. When it finds an opportunity, for example, swapping 100 usdc for 101 usdc. This is a 1% profit or 100 BPS (basis points). In this example if your minProfitBps = 99 then the bot will not attempt the arb txn.
+`minProfitBps`: your minimum profit threshold in basis points. For example, if you set this to 100 bps (1%), the bot will not attempt a transaction for the opportunities it finds under 100 bps profit. The bot is constantly searching for opportunities for a random trade size fixed in the min max range you provide. When it finds an opportunity, for example, swapping 100 usdc for 101 usdc. This is a 1% profit or 100 BPS (basis points). In this example if your minProfitBps = 101 then the bot will not attempt the arb txn.
 
 `directRoutesOnly`: will only look for direct routes, for example:\
 (SOL -> TOKEN, TOKEN -> SOL)\
