@@ -16,7 +16,7 @@ description: Suggestions for an optimal setup.
 * Base config objects with minProfitBps values that decrease as the trade size increases. E.g., a trade size range of $100 - $300 should have a minProfitBps of 2 - 8 but a range of $1 - $10 should have a minProfitBps > 20. **These are suggestions. You should test these values yourself.**
 * Frequently put new and popular token mint addresses in your includeMints.json and in your filter mints Jup API arg if you are self hosting. Look into automating this with [https://www.geckoterminal.com/dex-api](https://www.geckoterminal.com/dex-api)
 * Ubuntu 22 OS
-* Host your own Jupiter API on a [dedicated (bare metal) server](https://billing.rackdog.com/aff.php?aff=53) with at least 8 cores, 16 cores suggested, and 28 + cores is optimal (Ask about it in Discord and read about it [here](https://station.jup.ag/docs/apis/self-hosted))
+* [Host your own Jupiter API](bot-setup-instructions/jupiter-v6-access.md) on a [dedicated (bare metal) server](https://billing.rackdog.com/aff.php?aff=53) with at least 8 cores and **28 + cores is optimal** (Ask in Discord if you need help with this).
 * Your Jup API will be faster in theory if it uses a Yellowstone gRPC.
 * Put many different RPC urls in the rpcs.json file. You can also try duplicating some of them.
 * QUOTE\_REQUEST\_INTERVAL\_MS=(As low as possible without killing your jup api, try 5 - 10)\
