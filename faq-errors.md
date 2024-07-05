@@ -10,7 +10,7 @@ description: If this page is not helpful, please look for support on our Discord
 
 * **Why am I not rich yet?**\
   **Read** [**Optimal Setup**](optimal-setup.md)\
-  You can't just turn the bot on and make infinite money. You need to have good connections to [RPC(s)](bot-setup-instructions/rpcs.md) and a [Jupiter v6 API](bot-setup-instructions/jupiter-v6-access.md) and try different [strategies](strategies.md) to see what works.\
+  You can't just turn the bot on and make infinite money. You need to have good connections to [RPC(s)](bot-setup-instructions/rpc-+-grpc.md) and a [Jupiter v6 API](bot-setup-instructions/jupiter-v6-access.md) and try different [strategies](strategies.md) to see what works.\
 
 * **Can I lose money on a transaction?**\
   **You can't lose on a successful transaction!** (except for transaction fees and fees for opening token accounts)\
@@ -22,7 +22,7 @@ description: If this page is not helpful, please look for support on our Discord
 
 ## Errors
 
-* `429 Errors:` you are being rate limited by your [Jupiter API](bot-setup-instructions/jupiter-v6-access.md) or [RPC](bot-setup-instructions/rpcs.md)
+* `429 Errors:` you are being rate limited by your [Jupiter API](bot-setup-instructions/jupiter-v6-access.md) or [RPC](bot-setup-instructions/rpc-+-grpc.md)
 * `RangeError: encoding overruns Uint8Array:` transaction size was too large
 * `400 Errors from Jupiter`: the ones that we're seeing are from no routes found for some pairs. Will need to handle this in future releases.
 

@@ -5,7 +5,7 @@ description: Suggestions for an optimal setup.
 # Optimal Setup
 
 * All these servers need to be in the same location AND near a cluster of validators:\
-  \- [RPC server](bot-setup-instructions/rpcs.md)\
+  \- [RPC server](bot-setup-instructions/rpc-+-grpc.md)\
   \- [Jupiter API server](bot-setup-instructions/jupiter-v6-access.md) (Self Hosting is suggested, one server for Jup and bot)\
   \
   Here are some locations that have a high concentration of validators: Frankfurt, Amsterdam, New York, Chicago, Virginia. Check out this map of Solana validators: [https://www.validators.app/](https://www.validators.app/)

@@ -9,7 +9,7 @@
   * [includeMints.json](bot-setup-instructions/includemints.json.md)
   * [Keypair](bot-setup-instructions/keypair.md)
   * [Jupiter v6 Access](bot-setup-instructions/jupiter-v6-access.md)
-  * [RPCs](bot-setup-instructions/rpcs.md)
+  * [RPC + gRPC](bot-setup-instructions/rpc-+-grpc.md)
 * [Optimal Setup](optimal-setup.md)
 * [Fees](fees.md)
 * [FAQ / Errors](faq-errors.md)
