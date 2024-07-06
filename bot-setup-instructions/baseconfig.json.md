@@ -14,10 +14,6 @@ Cons: you will see less opportunities
 
 `maxAccounts`: read [here](https://station.jup.ag/docs/apis/swap-api#using-maxaccounts). maxAccounts is a param for each quote request and each arb requests 2 quotes. Transactions cannot have more than 64 accounts, so don't make the maxAccounts value higher than 32. I use 28 for this value.
 
-`profitBpsThresholdForSim`: in an effort to save on transaction fees, you can ask to simulate the transaction before sending to the blockchain. Ideally, the simulation catches what would be failed (nonprofitable) transactions and doesn't attempt to send them and therefore you don't pay a transaction fee. The catch is that this would make a valid/profitable transaction slightly slower and you may miss opportunities. This value[^1] is an upper bound profitBps value that determines whether the bot will attempt a simulation before attempting to broadcast your transaction to the chain. If your profitBpsThresholdForSim = 110 and the discovered arb opportunity has a profitBps = 100 then the bot will attempt to simulate because the profitBps 100 < 110 (sim value).
-
-If profit < value, then simulate the transaction before sending. The idea here is to not waste time simulating if the opportunity has a high profit bps but it's also nice to not waste txn fee sol on a txn that would have failed if sent to chain.
-
 `min/maxFeeLamports`: min/max priority fees based on potential profit scaled for 3% as max. So if the potential profit for an arb is >= 3% then the maxFeeLamports will be used. And then everything between 0% - 3% potential profit scales linearly. I think this would do better scaling exponentially. Will need to look into this.
 
 `jitoProfitPerc`: Percent of profit to send as a jito bundle tip. E.g., if the value is set to 50 then every profitable transaction will send 50% of the profit as a jito tip in SOL. Jito tips are only in native SOL so make sure you have enough SOL to use this.
@@ -32,35 +28,17 @@ When this is > 0 the worker will **only** send your transactions in a jito bundl
 
 `useHeliusTxn and heliusPriorityLevel`: please read about these properties [here](https://github.com/AlexRubik/rude-bot-solana/releases/tag/v1.0.0-alpha).
 
+`payerKeypairPath`: Refer to USE\_BASE\_CONFIG\_KEYPAIR in [.env](.env.md)
+
+`useCuOverride`: When true, the bot will use the cuOverrideValue for the transactions Compute Unit Limit. Learn about Compute Units [here](https://solana.com/developers/guides/advanced/how-to-optimize-compute).
+
+`cuOverrideValue`: Compute Unit Limit value
+
+`profitBpsThresholdForSim`: in an effort to save on transaction fees, you can ask to simulate the transaction before sending to the blockchain. Ideally, the simulation catches what would be failed (nonprofitable) transactions and doesn't attempt to send them and therefore you don't pay a transaction fee. The catch is that this would make a valid/profitable transaction slightly slower and you may miss opportunities. This value[^1] is an upper bound profitBps value that determines whether the bot will attempt a simulation before attempting to broadcast your transaction to the chain. If your profitBpsThresholdForSim = 110 and the discovered arb opportunity has a profitBps = 100 then the bot will attempt to simulate because the profitBps 100 < 110 (sim value).
+
+If profit < value, then simulate the transaction before sending. The idea here is to not waste time simulating if the opportunity has a high profit bps but it's also nice to not waste txn fee sol on a txn that would have failed if sent to chain.
+
 \
 Please refer to [Strategies](../strategies.md) after learning about the baseConfig.json properties.
-
-```json
-[
-    {
-      "workerUniqueId": "wsol5",
-      "mint": "So11111111111111111111111111111111111111112",
-        "name": "SOL",
-      "decimals": 9,
-      "enabled": true,
-      "minTradeSize": 0.006,
-      "maxTradeSize": 0.22,
-      "balance": 10.25,
-      "tradeSizeDecimals": 5,
-      "minProfitBps": 4,
-      "directRoutesOnly": false,
-      "maxAccounts": 20,
-      "profitBpsThresholdForSim": 1,
-      "minFeeLamports": 1000,
-      "maxFeeLamports": 3000,
-      "jitoProfitPerc": 0,
-      "minTipLamports": 0,
-      "maxTipLamports": 10000000,
-      "useHeliusTxn": true,
-      "heliusPriorityLevel": "MEDIUM",
-      "includeMintsJsonPath": "./includeMints.json"
-    }
-]
-```
 
 [^1]: profitBpsThresholdForSim
