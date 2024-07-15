@@ -4,32 +4,61 @@
    e.g.,&#x20;
 
 ```
-wget https://github.com/AlexRubik/rude-bot-solana/releases/download/v1.0.0-alpha/rude-bot-alpha1_0_0.zip
+wget https://github.com/AlexRubik/rude-bot-solana/releases/download/v1.1.0-alpha/rude-bot-alpha1_1_0.zip
 ```
 
 ```
-unzip rude-bot-alpha1_0_0.zip
+unzip rude-bot-alpha1_1_0.zip
 ```
 
 ```
-cd rude-bot-alpha1_0_0
+cd rude-bot-alpha1_1_0
 ```
 
-2. Modify your .env.example file (see [.env page](.env.md)) with nano or whatever text editor you use: \
-   `nano .env.example`\
-   \
-   \- Rename it to .env with this command: \
-   `mv .env.example .env`
-3. Modify your [baseConfig.json](baseconfig.json.md)
-4. Give it permission to execute and then run the executable provided:\
-   `chmod +x rude-bot-alpha1_0_0`\
-   \
-   `./rude-bot-alpha1_0_0`&#x20;
-5. Run in background with screen command:\
-   `screen -S session1`\
-   \
-   Execute the bot `./rude-bot-alpha1_0_0`\
-   \
-   Leave the session with CTRL + D and then tap the letter A.\
-   \
-   Log back in to the session with `screen -r session1`
+2. Modify your .env.example file (see [.env page](.env.md)) with nano or whatever text editor you use:&#x20;
+
+```
+nano .env.example
+```
+
+\
+\- Rename it to .env with this command:&#x20;
+
+```
+mv .env.example .env
+```
+
+3. Modify your [baseConfig.json](baseconfig.json.md) with nano
+4. Give it permission to execute and then run the executable provided:
+
+```
+chmod +x rude-bot-alpha1_1_0
+```
+
+```
+./rude-bot-alpha1_1_0
+```
+
+Use CTRL + C to stop the bot.
+
+5. We can run in background with screen command.
+
+This creates a new terminal session:
+
+```
+screen -S session1
+```
+
+You may need to install `screen` with this command: `apt install screen`
+
+\
+After you have created your screen session, you can execute the bot
+
+```
+./rude-bot-alpha1_1_0
+```
+
+\
+Leave the session with CTRL + D and then tap the letter A.\
+\
+Log back in to the session with `screen -r session1`
