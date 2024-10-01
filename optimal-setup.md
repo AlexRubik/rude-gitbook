@@ -18,7 +18,7 @@ description: Suggestions for an optimal setup.
   [https://www.geckoterminal.com/dex-api](https://www.geckoterminal.com/dex-api)\
   [https://solana.com/docs/rpc/http/getsignaturesforaddress](https://solana.com/docs/rpc/http/getsignaturesforaddress)
 * Ubuntu 22 OS
-* [Host your own Jupiter API](bot-setup-instructions/jupiter-v6-access.md) on a [dedicated (bare metal) server](https://billing.nodestop.io/aff.php?aff=88) with at least 8 cores and **24 + cores is optimal** (Ask in Discord if you need help with this).
+* [Host your own Jupiter API](bot-setup-instructions/jupiter-v6-access.md) on a [server](https://billing.nodestop.io/aff.php?aff=88) with at least 12 cores and **24 + cores is optimal** (Ask in Discord if you need help with this).
 * Your Jup API will be faster in theory if it uses a Yellowstone gRPC.
 * Put many different RPC urls in the rpcs.json file. You can also try duplicating some of them.
 * QUOTE\_REQUEST\_INTERVAL\_MS=(As low as possible without killing your jup api, try 10 - 50)\
