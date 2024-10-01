@@ -13,7 +13,7 @@ description: If this page is not helpful, please look for support on our Discord
   You can't just turn the bot on and make infinite money. You need to have good connections to [RPC(s)](bot-setup-instructions/rpc-+-grpc.md) and a [Jupiter v6 API](bot-setup-instructions/jupiter-v6-access.md) and try different [strategies](strategies.md) to see what works.\
 
 * **Can I lose money on a transaction?**\
-  **You can't lose on a successful transaction!** (except for transaction fees and fees for opening token accounts)\
+  **You can't lose on a successful transaction!** (except for transaction fees)\
   We've written an on chain program (smart contract) that prevents loss. The transaction is designed to fail if your base token balance ends less than or equal to the starting balance. Don't believe us? The bot has produced **over 10 million transactions** that you can analyze [here](https://solscan.io/account/3tZPEagumHvtgBhivFJCmhV9AyhBHGW9VgdsK52i4gwP)!\
 
 * **Transaction fees are killing me. How do I mitigate?**\
