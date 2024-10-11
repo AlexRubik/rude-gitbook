@@ -4,39 +4,34 @@
    e.g.,&#x20;
 
 ```
-wget https://github.com/AlexRubik/rude-bot-solana/releases/download/v1.1.0-alpha/rude-bot-alpha1_1_0.zip
+wget https://github.com/AlexRubik/rude-bot-solana/releases/download/v2.0.0-alpha/rude-bot-alpha2_0_0.zip
 ```
 
 ```
-unzip rude-bot-alpha1_1_0.zip
+unzip rude-bot-alpha2_0_0.zip
 ```
 
 ```
-cd rude-bot-alpha1_1_0
+cd rude-bot-alpha2_0_0
 ```
 
-2. Modify your .env.example file (see [.env page](.env.md)) with nano or whatever text editor you use:&#x20;
+2. Modify your .env file (see [.env page](.env.md)) with nano or whatever text editor you use:&#x20;
 
 ```
-nano .env.example
+nano .env
 ```
 
-\
-\- Rename it to .env with this command:&#x20;
 
-```
-mv .env.example .env
-```
 
 3. Modify your [baseConfig.json](baseconfig.json.md) with nano
 4. Give it permission to execute and then run the executable provided:
 
 ```
-chmod +x rude-bot-alpha1_1_0
+chmod +x rude-bot-alpha2_0_0
 ```
 
 ```
-./rude-bot-alpha1_1_0
+./rude-bot-alpha2_0_0
 ```
 
 Use CTRL + C to stop the bot.
@@ -55,7 +50,7 @@ You may need to install `screen` with this command: `apt install screen`
 After you have created your screen session, you can execute the bot
 
 ```
-./rude-bot-alpha1_1_0
+./rude-bot-alpha2_0_0
 ```
 
 \
