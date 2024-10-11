@@ -11,10 +11,11 @@
   * [Jupiter v6 Access](bot-setup-instructions/jupiter-v6-access.md)
   * [RPC + gRPC](bot-setup-instructions/rpc-+-grpc.md)
 * [Optimal Setup](optimal-setup.md)
-* [Fees](fees.md)
+* [Fee](fee.md)
 * [FAQ / Errors](faq-errors.md)
 * [Strategies](strategies.md)
 
 ## Development
 
+* [Source Code Purchase](development/source-code-purchase.md)
 * [Profit Check Program](development/profit-check-program.md)
