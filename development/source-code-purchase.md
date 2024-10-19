@@ -10,3 +10,4 @@
 
 * Bot has produced over $500k for users since inception \~ March 2024
 * Fee wallet income by month that collected a \~15% fee: [https://dune.com/alexdev777/rude-bot-fee-wallet](https://dune.com/alexdev777/rude-bot-fee-wallet)
+* Further proof can be found in the "arb-wins" channel in the Rude discord server
