@@ -3,6 +3,7 @@
 ## Price: 5000 USDC or 30 SOL
 
 * Access to private GitHub repo and all future updates
+* RPCs and GRPCs
 * Fee removal
 
 ## Proof of Value
