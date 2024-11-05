@@ -1,7 +1,7 @@
 ---
 description: >-
   Use this JavaScript code to convert your string/base58 private key to a json
-  array.
+  array. Paste this into Claude or ChatGPT and ask how to execute the code.
 ---
 
 # Keypair
