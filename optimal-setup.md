@@ -6,7 +6,7 @@ description: Suggestions for an optimal setup.
 
 * All these servers need to be in the same location AND near a cluster of validators:\
   \- [RPC server](bot-setup-instructions/rpc-+-grpc.md)\
-  \- [Jupiter API server](bot-setup-instructions/jupiter-v6-access.md) (Self Hosting is suggested and basically required now)\
+  \- [Jupiter API server](bot-setup-instructions/jupiter-v6-access.md) (can be same server as where you are running the bot)\
   \
   Here are some locations that have a high concentration of validators: Frankfurt, Amsterdam, New York, Chicago, Virginia. Check out this map of Solana validators: [https://www.validators.app/](https://www.validators.app/)
 * Connections with little or no rate limit: [Premium RPC](bot-setup-instructions/rpc-+-grpc.md), [Self Hosted Jupiter API](bot-setup-instructions/jupiter-v6-access.md)
@@ -14,7 +14,7 @@ description: Suggestions for an optimal setup.
 * Distribute min/max trade size ranges into different base config objects. E.g., $1 - $20 in one object, $20 - $80 in another, etc.
 * Try different minProfitBps values. Start low at 1 and increase
 * Frequently put new and popular token mint addresses in your includeMints.json and in your filter mints Jup API arg if you are self hosting. Look into automating this with thes APIs:\
-  [https://docs.birdeye.so/reference/get\_defi-token-trending](https://docs.birdeye.so/reference/get\_defi-token-trending)\
+  [https://docs.birdeye.so/reference/get\_defi-token-trending](https://docs.birdeye.so/reference/get_defi-token-trending)\
   [https://www.geckoterminal.com/dex-api](https://www.geckoterminal.com/dex-api)\
   [https://solana.com/docs/rpc/http/getsignaturesforaddress](https://solana.com/docs/rpc/http/getsignaturesforaddress)
 * Ubuntu 22 OS
