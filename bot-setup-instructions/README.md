@@ -4,56 +4,18 @@
    e.g.,&#x20;
 
 ```
-wget https://github.com/AlexRubik/rude-bot-solana/releases/download/v2.0.0-alpha/rude-bot-alpha2_0_0.zip
+wget https://github.com/AlexRubik/rude-bot-solana/releases/download/v3.1.0-alpha/rude-bot-alpha3_1_0.zip
 ```
 
 ```
-unzip rude-bot-alpha2_0_0.zip
+sudo apt update && apt upgrade -y && apt install -y screen unzip
 ```
 
 ```
-cd rude-bot-alpha2_0_0
-```
-
-2. Modify your .env file (see [.env page](.env.md)) with nano or whatever text editor you use:&#x20;
-
-```
-nano .env
-```
-
-
-
-3. Modify your [baseConfig.json](baseconfig.json.md) with nano
-4. Give it permission to execute and then run the executable provided:
-
-```
-chmod +x rude-bot-alpha2_0_0
+unzip rude-bot-alpha3_1_0.zip
 ```
 
 ```
-./rude-bot-alpha2_0_0
+cd rude-bot-alpha3_1_0
 ```
 
-Use CTRL + C to stop the bot.
-
-5. We can run in background with screen command.
-
-This creates a new terminal session:
-
-```
-screen -S session1
-```
-
-You may need to install `screen` with this command: `apt install screen`
-
-\
-After you have created your screen session, you can execute the bot
-
-```
-./rude-bot-alpha2_0_0
-```
-
-\
-Leave the session with CTRL + D and then tap the letter A.\
-\
-Log back in to the session with `screen -r session1`

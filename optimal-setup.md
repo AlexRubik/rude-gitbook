@@ -4,12 +4,7 @@ description: Suggestions for an optimal setup.
 
 # Optimal Setup
 
-* All these servers need to be in the same location AND near a cluster of validators:\
-  \- [RPC server](bot-setup-instructions/rpc-+-grpc.md)\
-  \- [Jupiter API server](bot-setup-instructions/jupiter-v6-access.md) (can be same server as where you are running the bot)\
-  \
-  Here are some locations that have a high concentration of validators: Frankfurt, Amsterdam, New York, Chicago, Virginia. Check out this map of Solana validators: [https://www.validators.app/](https://www.validators.app/)
-* Connections with little or no rate limit: [Premium RPC](bot-setup-instructions/rpc-+-grpc.md), [Self Hosted Jupiter API](bot-setup-instructions/jupiter-v6-access.md)
+* Connections with no rate limit: [RPC/GRPC](bot-setup-instructions/rpc-+-grpc.md)
 * Large trade sizes; your profit will scale with trade size because you will be exposed to opportunities that aren't present at lower trade sizes. E.g., a trade size range of $500 - $10,000 will almost always be more profitable than a range of $10 - $50.
 * Distribute min/max trade size ranges into different base config objects. E.g., $1 - $20 in one object, $20 - $80 in another, etc.
 * Try different minProfitBps values. Start low at 1 and increase
