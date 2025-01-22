@@ -19,3 +19,6 @@ unzip rude-bot-alpha3_1_0.zip
 cd rude-bot-alpha3_1_0
 ```
 
+```
+./rude --help
+```
