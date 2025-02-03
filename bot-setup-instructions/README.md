@@ -8,7 +8,7 @@ wget https://github.com/AlexRubik/rude-bot-solana/releases/download/v3.1.0-alpha
 ```
 
 ```
-sudo apt update && apt upgrade -y && apt install -y screen unzip
+sudo apt update && apt upgrade -y && apt install -y screen unzip && apt install python3-pip -y
 ```
 
 ```
