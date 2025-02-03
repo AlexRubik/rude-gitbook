@@ -12,6 +12,10 @@ sudo apt update && apt upgrade -y && apt install -y screen unzip && apt install 
 ```
 
 ```
+pip3 install requests python-dotenv
+```
+
+```
 unzip rude-bot-alpha3_1_0.zip
 ```
 
